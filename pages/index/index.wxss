@@ -1,0 +1,100 @@
+/**index.wxss**/
+
+page {
+  min-height: 100%;
+}
+
+.container {
+  /* background:#f6f6f6; */
+  position: relative;
+  z-index: 3;
+  min-height: 100%;
+}
+
+/* 列表外壳 */
+
+.group {
+  width: 95%;
+  /* height:100rpx; */
+  margin: 30rpx auto;
+  background: #fff;
+  overflow: hidden;
+}
+
+.group icon {
+  float: left;
+  margin-top: 20rpx;
+  display: block;
+  margin-left: 30rpx;
+}
+
+.serch_ip {
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #fff;
+  font-size: 34rpx;
+  margin-left: 20rpx;
+  float: left;
+}
+
+.scroll-container{
+  margin-top:140rpx;
+  
+}
+
+/* 列表样式 */
+
+.items-list, .pro-item {
+  overflow: hidden;
+  background: #fff;
+  /* margin-top:140rpx; */
+}
+
+.items-list {
+  position: relative;
+  z-index: 1;
+}
+
+.pro-item {
+  width: 100%;
+  /* margin-top:10rpx; */
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.pro-item:last-child {
+  border: none;
+}
+
+.pro-item image {
+  float: left;
+  margin-left: 20rpx;
+  width: 120rpx;
+  display: block;
+  height: 120rpx;
+  padding: 10rpx;
+  margin-top: 20rpx;
+}
+
+.pro-body {
+  margin-left: 170rpx;
+  margin-top: 40rpx;
+  width: 70%;
+}
+
+.pro-body .pro-title {
+  font-size: 28rpx;
+  color: #000;
+  line-height: 1;
+}
+
+.pro-body text {
+  font-size: 24rpx;
+  color: #bbb;
+  line-height: 1;
+}
+
+navigator {
+  overflow: hidden;
+  height: 180rpx !important;
+}

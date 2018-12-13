@@ -1,0 +1,96 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="list_box">
+    <view class="list_cntbox">
+        <!-- 内容部分 -->
+        <image class="bg_img1" src="../../img/bg1.png"></image>
+        <!-- 内容部分 -->
+       <!-- 分割线 -->
+       <view class='list_bot1' style='background:url(../../img/bgl1.png) no-repeat;'></view>
+       <view class='list_bot2'></view>
+       <view class='list_bot3' style='background:url(../../img/bgr1.png) no-repeat;'></view>
+       <!-- 分割线 -->
+    </view>
+    <view class="list_cntbox section">
+        <!-- 内容部分 -->
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item ">
+              <view>参与候选</view>
+              <view class='text_number'>120</view>
+          </view>
+          <view class="flex-item">
+            <view>累计票数</view>
+              <view class='text_number'>956</view>
+          </view>
+          <view class="flex-item">
+              <view>访问次数</view>
+              <view class='text_number'>1533</view>
+          </view>
+        </view>
+        <!-- 内容部分 -->
+        <!-- 分割线 -->
+       <view class='list_bot1' style='background:url(../../img/bgl1.png) no-repeat;'></view>
+       <view class='list_bot2'></view>
+       <view class='list_bot3' style='background:url(../../img/bgr1.png) no-repeat;'></view>
+       <!-- 分割线 -->
+    </view>
+
+     <view class="list_cntbox">
+        <!-- 内容部分 -->
+        <view class='text_box'>
+          <view class='text_line'>
+            <view>开始时间 ：</view>
+            <view class='text_inner'>2018.12.01 12:00</view>
+          </view>
+          <view class='text_line'>
+            <view>结束时间 ：</view>
+              <view class='text_inner'>2018.12.03 12:00</view>
+          </view>
+          <view class='text_line'>
+            <view>投票规则 ：</view>
+            <view class='text_inner'>每人只能投一票</view>
+          </view>
+          <view class='text_line' style='margin-bottom:40rpx'>
+            <view>详细内容 ：</view>
+            <view class='text_inner' style='text-indent:56rpx'>为增强“全国社会治安综合治理先进工作者”评选工作的群众参与度和社会公信力，根据《人力资源社会保障部、中央综治委关于评选全国社会治安综合治理先进集体和先进工作者的通知》精神，现决定组织开展网络推选活动。</view>
+            <view class='text_inner' style='text-indent:56rpx'>
+                本次网络评选的154名候选人是经各地推选上报全国评选表彰工作领导小组。全国评选表彰工作领导小组将各地上报的154名候选人及其先进事迹在全国层面推选平台进行发布，欢迎广大干部群众和社会各界参与投票，结合投票情况，审核确定表彰名单。
+            </view>
+          </view>
+          
+        </view>
+        <!-- 内容部分 -->
+        <!-- 分割线 -->
+       <view class='list_bot1' style='background:url(../../img/bgl1.png) no-repeat;'></view>
+       <view class='list_bot2'></view>
+       <view class='list_bot3' style='background:url(../../img/bgr1.png) no-repeat;'></view>
+       <!-- 分割线 -->
+    </view>
+
+
+     <view class="list_cntbox" >
+        <!-- 内容部分 -->
+        <view style='margin:40rpx auto 60rpx'>
+                <view class='text-title'>张三</view>
+                <view class='text-title2'>聚了街道拉萨李开复的号角</view>
+              <button>投  票</button>
+        </view>
+        <!-- 内容部分 -->
+        <!-- 分割线 -->
+       <view class='list_bot1' style='background:url(../../img/bgl1.png) no-repeat;'></view>
+       <view class='list_bot2'></view>
+       <view class='list_bot3' style='background:url(../../img/bgr1.png) no-repeat;'></view>
+       <!-- 分割线 -->
+    </view>
+
+    <view class="list_cntbox" >
+        <!-- 内容部分 -->
+        <view>
+                <view class='text-title'>李四</view>
+                <view class='text-title2'>聚了街道拉萨李开复的号角</view>
+              <button disabled='disabled'>148票</button>
+        </view>
+        <!-- 内容部分 -->
+    </view>
+  </view>
+</view>

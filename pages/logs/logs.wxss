@@ -1,0 +1,117 @@
+/**index.wxss**/
+
+.container{
+  background:#f6f6f6;
+}
+/* 列表外壳 */
+.list_box{
+  
+  width:95%;
+  margin:32rpx auto 0;
+  box-shadow: 0px 0px 15px #e6e7e7;
+  /* height:300rpx; */
+  border-radius: 20rpx;
+  background:#ffffff;
+  overflow: hidden
+}
+.list_cntbox{
+  width:100%;
+  /* height:100rpx; */
+  border-radius: 20rpx 20rpx 0 0;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 10rpx;
+  overflow: hidden
+}
+.list_bot1{
+  position: absolute;
+  left:-5rpx;
+  bottom: -1rpx;
+  border-radius: 50%;
+  width:18rpx;
+  height:32rpx;
+  /* background:#f6f6f6; */
+  display: block;
+  z-index: 2
+
+}
+.list_bot2{
+  position: absolute;
+  left:0rpx;
+  bottom: 14rpx;
+  width:100%;
+  height:0rpx;
+  /* background:#efefef; */
+  display: block;
+  border-top:1px dotted #efefef;
+  z-index: 1
+
+}
+.list_bot3{
+  position: absolute;
+  right:-5rpx;
+  bottom: 0rpx;
+  border-radius: 50%;
+  width:16rpx;
+  height:32rpx;
+  
+  display: block;
+  z-index: 2
+
+
+}
+.bg_img1{
+  /* width:90%; */
+  margin:60rpx auto;
+  display: block;
+  height:164px;
+}
+.flex-wrp {display: flex;margin:20rpx auto}
+.flex-item{
+  width:33%;
+  text-align: center;
+  font-size: 28rpx;
+
+}
+.text_number{
+color:#2fd8b5
+}
+.text_box{
+  font-size: 28rpx;
+
+}
+.text_line{
+  width:92%;
+  margin:10rpx auto;
+}
+.text_line view{
+  display: inline-block
+}
+.text_line .text_inner{
+  color:#888888;
+}
+
+.text-title{
+     font-size: 32rpx;
+     color:#333333;
+     text-align: center
+}
+.text-title2{
+     font-size: 28rpx;
+     color:#888888;
+      text-align: center
+}
+button{
+  width:85%;
+  height:80rpx;
+  line-height:80rpx;
+  border-radius: 30rpx;
+  color:#ffffff;
+  text-align: center;
+  margin:15rpx auto;
+  background: #2fd8b5;
+}
+button[disabled]{
+  color:#ffffff !important;
+  background: #8eead7 !important
+}
